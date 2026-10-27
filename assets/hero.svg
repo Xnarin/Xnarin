@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Xnarin — Aspiring AI Agent Engineer</title>
+<desc id="desc">A navy portfolio banner with lavender type and a question, tools, evidence workflow.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="350" gradientUnits="userSpaceOnUse"><stop stop-color="#171A2E"/><stop offset="1" stop-color="#25223F"/></linearGradient>
+<pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" stroke="#B9B0DD" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1200" height="350" rx="24" fill="url(#bg)"/>
+<rect x="700" width="500" height="350" rx="24" fill="url(#grid)"/>
+<circle cx="1034" cy="168" r="174" stroke="#BBA8F4" stroke-opacity=".10"/>
+<circle cx="1034" cy="168" r="135" stroke="#BBA8F4" stroke-opacity=".08"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<circle cx="58" cy="48" r="5" fill="#B8F0D9"/>
+<text x="76" y="53" fill="#C9C3E2" font-size="14" letter-spacing="3">PORTFOLIO / AI AGENTS</text>
+<text x="52" y="158" fill="#F7F5FF" font-size="82" font-weight="700" letter-spacing="-4">Xnarin<tspan fill="#BEACF8">.</tspan></text>
+<text x="56" y="207" fill="#D3C5FF" font-size="25">Aspiring AI Agent Engineer</text>
+<text x="56" y="248" fill="#A7A7BC" font-size="20">Turning questions into verified actions.</text>
+<path d="M56 286H661" stroke="#FFFFFF" stroke-opacity=".12"/>
+<text x="56" y="317" fill="#C2BCD8" font-size="13" letter-spacing="2">TOOL CALLING</text>
+<text x="218" y="317" fill="#706783" font-size="13">/</text>
+<text x="245" y="317" fill="#C2BCD8" font-size="13" letter-spacing="2">RAG</text>
+<text x="303" y="317" fill="#706783" font-size="13">/</text>
+<text x="331" y="317" fill="#C2BCD8" font-size="13" letter-spacing="2">MCP</text>
+<path d="M893 108V143M893 201V236" stroke="#82779F" stroke-width="2" stroke-dasharray="4 5"/>
+<rect x="801" y="53" width="264" height="55" rx="13" fill="#302B48" stroke="#6B5E8C"/>
+<circle cx="829" cy="80" r="6" fill="#C3B0FA"/>
+<text x="849" y="86" fill="#E5DDFB" font-size="17">question</text>
+<text x="1025" y="86" fill="#A79BC3" font-size="15">01</text>
+<rect x="801" y="143" width="264" height="58" rx="13" fill="#35304F" stroke="#A08BD4"/>
+<path d="M824 172L829 167L834 172L829 177Z" fill="#D1BDFC"/>
+<text x="849" y="178" fill="#E5DDFB" font-size="17">tools + validation</text>
+<rect x="801" y="236" width="264" height="58" rx="13" fill="#243C3C" stroke="#67988A"/>
+<path d="M823 265L828 270L837 260" stroke="#B8F0D9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="849" y="271" fill="#C4EFDF" font-size="17">evidence</text>
+<text x="1025" y="271" fill="#83BCA7" font-size="15">03</text>
+</g></svg>
