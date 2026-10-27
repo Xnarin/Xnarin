@@ -11,10 +11,21 @@
 
 ### Selected work
 
+<a href="https://github.com/Xnarin/CarbonReply"><img src="assets/carbonreply.svg" width="100%" alt="01 CarbonReply — AI 고지서 추출, 사용자 검토, 계산과 확정 리포트" /></a>
+
+**AI가 읽은 고지서, 사람이 확인하고 코드로 확정합니다.**  
+PDF 추출 → 원본 대조·수정 → Scope 2 계산 → 확정 스냅샷과 PDF 리포트
+
+<sub>Next.js · TypeScript · Gemini · Supabase · Vitest · Playwright</sub>
+
+[**Repository ↗**](https://github.com/Xnarin/CarbonReply) &nbsp; [서비스 열기](https://carbon-reply.vercel.app) &nbsp; [설계·구현](https://github.com/Xnarin/CarbonReply#핵심-설계)
+
+<br>
+
 <table>
 <tr>
 <td width="50%" valign="top">
-  <a href="https://github.com/Xnarin/finpilot"><img src="assets/finpilot.svg" width="100%" alt="01 FinPilot — Financial Tool Agent. OpenDART · LangGraph · MCP. Personal project." /></a>
+  <a href="https://github.com/Xnarin/finpilot"><img src="assets/finpilot.svg" width="100%" alt="02 FinPilot — Financial Tool Agent. OpenDART · LangGraph · MCP. Personal project." /></a>
   <br>
   <p><strong>조회부터 계산까지, 근거가 남는 금융 에이전트</strong></p>
   <p>공식 공시를 조회하고 코드로 계산합니다.<br>사용자가 말한 조건을 검증하고, 모호하면 되묻습니다.</p>
@@ -22,7 +33,7 @@
   <p><a href="https://github.com/Xnarin/finpilot"><strong>Repository ↗</strong></a> &nbsp; <a href="https://github.com/Xnarin/finpilot/blob/main/docs/evaluation/eval_results.md">평가 기록</a></p>
 </td>
 <td width="50%" valign="top">
-  <a href="https://github.com/Xnarin/financial-rag-agent"><img src="assets/financial-rag.svg" width="100%" alt="02 Financial RAG Agent — Evidence-first Retrieval. 23 financial PDFs · Hybrid Search · Re-search. Team project." /></a>
+  <a href="https://github.com/Xnarin/financial-rag-agent"><img src="assets/financial-rag.svg" width="100%" alt="03 Financial RAG Agent — Evidence-first Retrieval. 23 financial PDFs · Hybrid Search · Re-search. Team project." /></a>
   <br>
   <p><strong>문서 구조를 살리고, 부족한 근거는 다시 검색</strong></p>
   <p>표·용어·조항을 반영해 문서를 나눕니다.<br>검색과 답변의 품질·비용·지연을 비교합니다.</p>
@@ -34,6 +45,14 @@
 
 <details>
 <summary><strong>프로젝트를 조금 더 자세히</strong></summary>
+
+#### CarbonReply · AI Document Workflow
+
+- **추출과 검토:** PDF에서 청구연월·kWh를 읽고 서버 검증 후 사용자가 원본과 대조합니다.
+- **계산과 확정:** 확인된 월별 값으로 배출량을 계산하고, 확정 당시의 값·계수를 스냅샷으로 남깁니다.
+- **변경 잠금:** 확정 자료의 수정을 DB 트리거로 막고, 검증·계산·확정 조건 테스트를 갖췄습니다.
+
+[주요 구현](https://github.com/Xnarin/CarbonReply#코드-살펴보기) · [테스트 안내](https://github.com/Xnarin/CarbonReply/blob/main/AUTOMATED_TESTING.md)
 
 #### FinPilot · Tool Calling & MCP
 
