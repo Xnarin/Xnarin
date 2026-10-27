@@ -3,8 +3,7 @@
 
 <p align="center">
   <a href="https://github.com/Xnarin/finpilot">FinPilot</a> ·
-  <a href="https://github.com/Xnarin/financial-rag-agent">Financial RAG Agent</a> ·
-  <a href="https://github.com/Xnarin/TIL">Learning Notes</a>
+  <a href="https://github.com/Xnarin/financial-rag-agent">Financial RAG Agent</a>
 </p>
 
 <br>
@@ -68,6 +67,3 @@ LLM이 도구를 선택하는 과정, 잘못된 실행을 막는 검증, 검색�
 
 Retrieval: Chroma · BM25 · Kiwi &nbsp; / &nbsp; Validation: pytest · Golden-set Evaluation
 
-## Learning Notes
-
-[TIL](https://github.com/Xnarin/TIL) — 학습 기록
