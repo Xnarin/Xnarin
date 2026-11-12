@@ -11,14 +11,14 @@
 
 ### Selected work
 
-<a href="https://github.com/Xnarin/CarbonReply"><img src="assets/carbonreply.svg" width="100%" alt="01 CarbonReply — AI 고지서 추출, 사용자 검토, 계산과 확정 리포트" /></a>
+<a href="https://naengo.com"><img src="assets/naengo.png" width="100%" alt="01 내금고 — 가상 모바일 뱅킹과 AI 어시스턴트. 송금 요청, PIN 확인, 서버 이체 실행." /></a>
 
-**AI가 읽은 고지서, 사람이 확인하고 코드로 확정합니다.**  
-PDF 추출 → 원본 대조·수정 → Scope 2 계산 → 확정 스냅샷과 PDF 리포트
+**채팅으로 잔액을 조회하고, PIN 확인 후 송금하는 가상 모바일 뱅킹**<br>
+금융 문서 RAG로 질문에 답하고, 계좌 거래내역을 바탕으로 소비 패턴과 정기결제 후보를 분석합니다.
 
-<sub>Next.js · TypeScript · Gemini · Supabase · Vitest · Playwright</sub>
+<sub>4인 공동 설계 · 개인 구현 · React · FastAPI · PostgreSQL · LangGraph · Gemini · AWS</sub>
 
-[**Repository ↗**](https://github.com/Xnarin/CarbonReply) &nbsp; [서비스 열기](https://carbon-reply.vercel.app) &nbsp; [설계·구현](https://github.com/Xnarin/CarbonReply#핵심-설계)
+[**Repository ↗**](https://github.com/Xnarin/naengo-bank) &nbsp; [서비스 열기](https://naengo.com) &nbsp; [설계·구현](https://github.com/Xnarin/naengo-bank#구현에서-중요했던-결정)
 
 <br>
 
